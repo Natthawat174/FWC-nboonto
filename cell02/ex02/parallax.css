@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallax1 {
+    background-image: url("https://img.bgstatic.com/multiLang/web/605120c4719cc92a226e9ac6f3049631.jpg");
+}
+
+.parallax2 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz6sHawy9ER8ZDAdQoBHnMcwSNpWXyr4dSQLIlR5Rh4g624-3nkWHBXow&s=10");
+}
+
+.black-block {
+    height: 25vh;
+    background-color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-family: sans-serif;
+}

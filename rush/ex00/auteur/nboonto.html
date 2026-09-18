@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nboonto - Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="nboonto.css">
+</head>
+<body>
+
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">nboonto<span class="dot">.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="#experience">Experience</a>
+                    <a class="nav-link" href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="home" class="home-hero d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <p class="hero-greeting">Hello, welcome to my page</p>
+                    <h1>Hi, intra <span class="highlight">nboonto</span></h1>
+                    <p class="lead hero-sub">My name is natthawat.</p>
+                    <div class="hero-btns">
+                        <a href="#about" class="btn btn-hero">About Me</a>
+                        <a href="#contact" class="btn btn-hero-outline">Contact</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 text-center d-none d-lg-block">
+                    <div class="hero-shape"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-5 text-center">
+                    <div class="profile-wrapper">
+                        <img src="../arm_pic/pic_nboonto.webp" alt="Profile picture" class="profile-pic">
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <span class="section-tag">Who am I</span>
+                    <h2>About Me</h2>
+                    <p class="about-text">
+                        ผมเป็นนักศึกษาที่สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง<br> ชั้นปีที่ 2
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section experience-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="section-tag">What I do</span>
+                <h2>Experience &amp; Skills</h2>
+            </div>
+
+            <div class="row g-5">
+                <!-- ฝั่งซ้าย: Experience list -->
+                <div class="col-lg-6">
+                    <h5 class="exp-heading">Background</h5>
+                    <div class="exp-item">
+                        <h6>Student</h6>
+                        <span class="exp-date">2024 - Present</span>
+                        <p>สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง ชั้นปีที่ 2</p>
+                    </div>
+                    <div class="exp-item">
+                        <h6>Discovery Piscine</h6>
+                        <span class="exp-date">2026</span>
+                        <p>42 Bangkok &middot; Fun with coding</p>
+                    </div>
+                </div>
+
+                <!-- ฝั่งขวา: Skill bars -->
+                <div class="col-lg-6">
+                    <h5 class="exp-heading">Skills</h5>
+
+                    <div class="skill">
+                        <div class="skill-label"><span>HTML</span><span>30%</span></div>
+                        <div class="skill-bar"><div class="skill-fill" style="width:30%"></div></div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-label"><span>CSS</span><span>30%</span></div>
+                        <div class="skill-bar"><div class="skill-fill" style="width:30%"></div></div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-label"><span>JavaScript</span><span>20%</span></div>
+                        <div class="skill-bar"><div class="skill-fill" style="width:20%"></div></div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-label"><span>Bootstrap</span><span>10%</span></div>
+                        <div class="skill-bar"><div class="skill-fill" style="width:10%"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact-section">
+        <div class="container text-center">
+            <span class="section-tag light">Let's connect</span>
+            <h2>Contact Me</h2>
+
+            <div class="row justify-content-center g-4">
+                <div class="col-md-4">
+                    <a href="mailto:68050174@kmitl.ac.th" class="contact-card">
+                        <div class="contact-icon">✉</div>
+                        <h6>Email</h6>
+                        <span>68050174@kmitl.ac.th</span>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://github.com/Natthawat174/FWC-nboonto" target="_blank" class="contact-card">
+                        <div class="contact-icon">⌨</div>
+                        <h6>GitHub</h6>
+                        <span>github.com/Natthawat174/FWC-nboonto</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center py-3">
+        <p class="mb-0">&copy; nboonto 2026</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+*{ box-sizing: border-box; }
+
+body {
+    padding-top: 56px;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+.navbar { background-color: #1a1a2e; }
+.navbar-brand { font-weight: bold; }
+.navbar-brand .dot { color: #6c63ff; }
+.nav-link:hover { color: #6c63ff !important; }
+
+.home-hero {
+    min-height: 100vh;
+    background-color: #1a1a2e;
+    color: white;
+}
+.hero-greeting { text-transform: uppercase; font-size: 13px; color: #a89cff; margin-bottom: 10px; }
+.home-hero h1 { font-size: 40px; margin-bottom: 15px; }
+.highlight { color: #a89cff; }
+.hero-sub { max-width: 500px; margin-bottom: 25px; }
+.hero-btns .btn { margin-right: 10px; }
+.hero-shape { display: none; }
+
+.btn-hero, .btn-contact {
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    padding: 10px 24px;
+}
+.btn-hero-outline, .btn-contact-outline {
+    background: transparent;
+    color: white;
+    border: 1px solid #fff;
+    padding: 10px 24px;
+}
+
+.section { padding: 70px 0; }
+.section h2 { margin-bottom: 15px; }
+.section-tag { color: #6c63ff; font-weight: bold; text-transform: uppercase; font-size: 13px; }
+.section-tag.light { color: #a89cff; }
+
+/* About */
+.about-section { background-color: #f8f8f8; }
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #6c63ff;
+}
+.about-text { line-height: 1.7; margin-bottom: 15px; }
+
+/* Experience */
+.experience-section { background-color: #fff; }
+.exp-heading {
+    color: #6c63ff;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.exp-item {
+    border-left: 3px solid #6c63ff;
+    padding-left: 18px;
+    margin-bottom: 22px;
+}
+.exp-item h6 { margin-bottom: 3px; font-weight: bold; }
+.exp-date { color: #999; font-size: 13px; }
+.exp-item p { margin-top: 6px; margin-bottom: 0; color: #555; }
+
+.skill { margin-bottom: 20px; }
+.skill-label {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.skill-bar {
+    background-color: #eee;
+    border-radius: 20px;
+    height: 10px;
+    overflow: hidden;
+}
+.skill-fill {
+    background-color: #6c63ff;
+    height: 100%;
+    border-radius: 20px;
+}
+
+/* Contact */
+.contact-section { background-color: #1a1a2e; color: white; }
+.contact-card {
+    display: block;
+    border: 1px solid #555;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+.contact-card:hover { border-color: #6c63ff; color: white; }
+.contact-icon { font-size: 26px; margin-bottom: 8px; }
+
+footer { background-color: #0f0f1a; color: #999; font-size: 13px; }
+
+@media (max-width: 576px) {
+    .home-hero h1 { font-size: 28px; }
+    .section { padding: 50px 0; }
+}
